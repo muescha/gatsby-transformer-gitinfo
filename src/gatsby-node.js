@@ -1,5 +1,4 @@
 const git = require(`simple-git/promise`);
-const _ = require(`lodash`);
 
 async function onCreateNode({ node, actions }, pluginOptions) {
   const { createNodeField } = actions;
